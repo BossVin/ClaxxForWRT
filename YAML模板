@@ -5,7 +5,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://api.xmancdn.com/osubscribe.php?token2=mnympexq-9e94d22df5bn0qe593&sip002=1"
+    url: "https://"
     type: http
     interval: 86400
     health-check:
@@ -14,7 +14,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
   Airport2:
-    url: "https://api.xmancdn.net/osubscribe.php?token2=zq462p4q-59635f01a0g54y6oib&sip002=1"
+    url: "https://"
     type: http
     interval: 86400
     health-check:
